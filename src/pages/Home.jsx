@@ -38,6 +38,12 @@ const features = [
     description: 'IEPs vs. 504 plans, FERPA vs. HIPAA, and how to advocate for a child across both the school and healthcare systems.',
   },
   {
+    to: '/for-family',
+    icon: '💙',
+    title: 'For Family & Friends',
+    description: 'Signs to watch for in a loved one, crisis red flags, how to start the conversation, and support for you as a caregiver.',
+  },
+  {
     to: '/scripts',
     icon: '📝',
     title: 'Scripts & Printable Forms',

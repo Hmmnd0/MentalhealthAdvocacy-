@@ -8,6 +8,7 @@ const navItems = [
   { to: '/provider-bias', label: 'Recognizing Bias' },
   { to: '/patient-rights', label: 'Patient Rights' },
   { to: '/youth-school', label: 'Youth & School' },
+  { to: '/for-family', label: 'For Family & Friends' },
   { to: '/scripts', label: 'Scripts & Forms' },
   { to: '/helplines', label: 'Helplines' },
   { to: '/medications', label: 'Medication Info' },

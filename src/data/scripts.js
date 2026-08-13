@@ -465,6 +465,41 @@ const scripts = [
     ],
   },
   {
+    id: 'loved-one-behavior-log',
+    title: 'What I\'ve Noticed: Loved One Behavior Log',
+    purpose:
+      'A log for family and friends to track changes in someone they\'re worried about — so "something feels off" becomes specific, dated observations you can act on or bring to them directly.',
+    whenToUse: 'Fill out whenever you notice something that feels like a change from their normal baseline. Review it every few weeks to see if a pattern is forming.',
+    sections: [
+      {
+        heading: 'Observation log',
+        type: 'table',
+        columns: ['Date', 'What I noticed', 'How long it lasted', 'How it compares to their usual self', 'What was happening around it'],
+        rows: 8,
+      },
+      {
+        heading: 'Before I bring it up',
+        type: 'checklist',
+        items: [
+          'I\'m describing specific, observed changes — not guessing at a diagnosis',
+          'I\'ve picked a private, low-pressure moment, not in front of others or mid-argument',
+          'I\'m prepared to listen more than I talk',
+          'I know what I\'ll say if they get defensive or shut down — I don\'t need to resolve everything in one conversation',
+          'I know who to call (988, a provider, or 911) if the conversation reveals a safety concern',
+        ],
+      },
+      {
+        heading: 'Planning the conversation',
+        type: 'fields',
+        fields: [
+          { label: 'What I\'ve noticed, in a few plain sentences', type: 'textarea' },
+          { label: 'How I want to open the conversation', type: 'textarea' },
+          { label: 'What I\'m hoping happens next (them talking to someone, seeing a doctor, etc.)', type: 'textarea' },
+        ],
+      },
+    ],
+  },
+  {
     id: 'advocating-for-someone',
     title: 'Advocating for a Family Member or Loved One',
     purpose: 'A script and checklist for supporting someone else\'s appointment — as a caregiver, parent, or advocate — while respecting their autonomy where possible.',
