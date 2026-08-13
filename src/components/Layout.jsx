@@ -4,6 +4,7 @@ const navItems = [
   { to: '/', label: 'Home', end: true },
   { to: '/glossary', label: 'Doctor-Speak Glossary' },
   { to: '/diagnosis-process', label: 'How Diagnosis Works' },
+  { to: '/provider-bias', label: 'Recognizing Bias' },
   { to: '/scripts', label: 'Scripts & Forms' },
   { to: '/helplines', label: 'Helplines' },
   { to: '/medications', label: 'Medication Info' },

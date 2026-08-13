@@ -14,6 +14,12 @@ const features = [
     description: 'Step-by-step walkthrough of how a mental health diagnosis gets made, with questions to ask at each stage.',
   },
   {
+    to: '/provider-bias',
+    icon: '⚖️',
+    title: 'Recognizing Provider Bias',
+    description: 'Patterns that suggest bias around race, gender, weight, age, or identity in your care, and how to document and respond to them.',
+  },
+  {
     to: '/scripts',
     icon: '📝',
     title: 'Scripts & Printable Forms',

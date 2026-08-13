@@ -7,6 +7,7 @@ import ScriptDetail from './pages/ScriptDetail'
 import Helplines from './pages/Helplines'
 import Medications from './pages/Medications'
 import DiagnosisProcess from './pages/DiagnosisProcess'
+import ProviderBias from './pages/ProviderBias'
 import About from './pages/About'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="helplines" element={<Helplines />} />
         <Route path="medications" element={<Medications />} />
         <Route path="diagnosis-process" element={<DiagnosisProcess />} />
+        <Route path="provider-bias" element={<ProviderBias />} />
         <Route path="about" element={<About />} />
       </Route>
     </Routes>

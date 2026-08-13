@@ -97,6 +97,41 @@ const scripts = [
     ],
   },
   {
+    id: 'was-i-heard-log',
+    title: 'Was I Heard? Visit Log',
+    purpose:
+      'A pattern-tracking log for noticing possible bias in your care — around race, gender, weight, age, disability, sexuality, or class. One dismissive visit is ambiguous; a documented pattern across several is data worth acting on.',
+    whenToUse: 'Fill out after any visit that left you feeling dismissed, rushed, or unheard — even briefly. Review it every few visits to look for a pattern.',
+    sections: [
+      {
+        heading: 'Visit-by-visit log',
+        type: 'table',
+        columns: ['Date', 'Concern I raised', 'What was investigated', 'What was dismissed or attributed to something about me without explanation', 'How I felt leaving'],
+        rows: 8,
+      },
+      {
+        heading: 'Looking for a pattern',
+        type: 'checklist',
+        items: [
+          'The same explanation gets offered for every new symptom, regardless of what I actually describe',
+          'Visits feel noticeably shorter or more rushed than what others describe for similar concerns',
+          'Generalizing language stands in for actually asking me',
+          'Defensiveness when I ask informed questions or bring notes',
+          'My own report of my symptoms is treated as less reliable than an assumption about me',
+        ],
+      },
+      {
+        heading: 'If I see a pattern',
+        type: 'fields',
+        fields: [
+          { label: 'What the pattern looks like across visits', type: 'textarea' },
+          { label: 'Questions I want to ask directly at my next visit', type: 'textarea' },
+          { label: 'Whether I want a second opinion, and from whom', type: 'textarea' },
+        ],
+      },
+    ],
+  },
+  {
     id: 'diagnosis-process-checklist',
     title: 'Diagnostic Process Checklist',
     purpose:
