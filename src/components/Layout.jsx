@@ -3,6 +3,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 const navItems = [
   { to: '/', label: 'Home', end: true },
   { to: '/glossary', label: 'Doctor-Speak Glossary' },
+  { to: '/diagnosis-process', label: 'How Diagnosis Works' },
   { to: '/scripts', label: 'Scripts & Forms' },
   { to: '/helplines', label: 'Helplines' },
   { to: '/medications', label: 'Medication Info' },

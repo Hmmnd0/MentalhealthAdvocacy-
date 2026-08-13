@@ -8,6 +8,12 @@ const features = [
     description: 'Plain-English explanations of clinical terms — differential diagnosis, contraindication, titration, and more.',
   },
   {
+    to: '/diagnosis-process',
+    icon: '🧭',
+    title: 'How Diagnosis Works',
+    description: 'Step-by-step walkthrough of how a mental health diagnosis gets made, with questions to ask at each stage.',
+  },
+  {
     to: '/scripts',
     icon: '📝',
     title: 'Scripts & Printable Forms',

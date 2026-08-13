@@ -6,6 +6,7 @@ import Scripts from './pages/Scripts'
 import ScriptDetail from './pages/ScriptDetail'
 import Helplines from './pages/Helplines'
 import Medications from './pages/Medications'
+import DiagnosisProcess from './pages/DiagnosisProcess'
 import About from './pages/About'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="scripts/:id" element={<ScriptDetail />} />
         <Route path="helplines" element={<Helplines />} />
         <Route path="medications" element={<Medications />} />
+        <Route path="diagnosis-process" element={<DiagnosisProcess />} />
         <Route path="about" element={<About />} />
       </Route>
     </Routes>

@@ -97,6 +97,101 @@ const scripts = [
     ],
   },
   {
+    id: 'diagnosis-process-checklist',
+    title: 'Diagnostic Process Checklist',
+    purpose:
+      'Every question from the "How Diagnosis Works" guide, in one printable page — organized by the stage of evaluation so you can ask the right question at the right moment instead of all at once.',
+    whenToUse: 'Bring to a diagnostic evaluation, especially a first appointment with a new psychiatrist or therapist, or when you want a clearer picture of how a diagnosis was reached.',
+    sections: [
+      {
+        heading: '1. Intake & History',
+        type: 'checklist',
+        items: [
+          '"What information do you need from me to get an accurate picture?"',
+          'Disclose everything, including substances, supplements, and past diagnoses — even ones that feel embarrassing or unrelated.',
+        ],
+      },
+      {
+        heading: '2. Clinical Interview & Mental Status Exam',
+        type: 'checklist',
+        items: [
+          '"What are you listening for when you ask that?"',
+          'If a question doesn\'t capture what you\'re experiencing, add context instead of picking the closest-fitting answer.',
+        ],
+      },
+      {
+        heading: '3. Screening Tools & Rating Scales',
+        type: 'checklist',
+        items: [
+          '"What does my score mean, and where is the cutoff?"',
+          '"Is this scale enough on its own, or does a diagnosis need more than this score?"',
+          'Ask for a copy of your scored results to track over time.',
+        ],
+      },
+      {
+        heading: '4. Applying Diagnostic Criteria',
+        type: 'checklist',
+        items: [
+          '"Which specific criteria am I meeting, and which am I not?"',
+          '"What\'s the full diagnostic name and code, so I can look into it further?"',
+          '"How many of the required symptoms do I have, and for how long?"',
+        ],
+      },
+      {
+        heading: '5. Ruling Out Other Causes',
+        type: 'checklist',
+        items: [
+          '"What else could this be, and how are we ruling it out?"',
+          '"Should I get bloodwork before we settle on a diagnosis?"',
+          '"Could a medication I\'m already taking be causing or worsening this?"',
+        ],
+      },
+      {
+        heading: '6. Collateral Information',
+        type: 'checklist',
+        items: [
+          '"Would it help to hear from my [partner/parent/previous therapist]?"',
+          'Ask what release-of-information paperwork is needed if you want past records shared.',
+        ],
+      },
+      {
+        heading: '7. Case Formulation & Working Diagnosis',
+        type: 'checklist',
+        items: [
+          '"Is this a confirmed or provisional diagnosis, and what would change it?"',
+          '"Can you walk me through your reasoning?"',
+          '"Could more than one thing be going on at once?"',
+        ],
+      },
+      {
+        heading: '8. Sharing the Diagnosis',
+        type: 'checklist',
+        items: [
+          '"Can you explain that in plain language, without the clinical terms?"',
+          '"How confident are you in this diagnosis?"',
+          '"Can I get a written summary of this for my records?"',
+        ],
+      },
+      {
+        heading: '9. Treatment Planning',
+        type: 'checklist',
+        items: [
+          '"What are all the evidence-based options, not just the first one you\'d recommend?"',
+          '"What\'s the timeline before we\'d expect to see improvement, and how will we measure it?"',
+        ],
+      },
+      {
+        heading: '10. Ongoing Reassessment',
+        type: 'checklist',
+        items: [
+          '"Under what circumstances would you revisit or change this diagnosis?"',
+          '"What would \'better\' look like, specifically?"',
+          '"How often should we check in on whether this diagnosis and plan still fit?"',
+        ],
+      },
+    ],
+  },
+  {
     id: 'medication-checkin',
     title: 'New Medication Check-In & Side Effect Report',
     purpose:
