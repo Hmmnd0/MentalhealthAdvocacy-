@@ -8,6 +8,9 @@ import Helplines from './pages/Helplines'
 import Medications from './pages/Medications'
 import DiagnosisProcess from './pages/DiagnosisProcess'
 import ProviderBias from './pages/ProviderBias'
+import PatientRights from './pages/PatientRights'
+import CareOptions from './pages/CareOptions'
+import YouthSchool from './pages/YouthSchool'
 import About from './pages/About'
 
 function App() {
@@ -22,6 +25,9 @@ function App() {
         <Route path="medications" element={<Medications />} />
         <Route path="diagnosis-process" element={<DiagnosisProcess />} />
         <Route path="provider-bias" element={<ProviderBias />} />
+        <Route path="patient-rights" element={<PatientRights />} />
+        <Route path="care-options" element={<CareOptions />} />
+        <Route path="youth-school" element={<YouthSchool />} />
         <Route path="about" element={<About />} />
       </Route>
     </Routes>

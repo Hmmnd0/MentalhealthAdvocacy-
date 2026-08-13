@@ -132,6 +132,142 @@ const scripts = [
     ],
   },
   {
+    id: 'know-your-rights-card',
+    title: 'Know-Your-Rights Card',
+    purpose:
+      'A quick-reference card summarizing core patient rights, plus your key contacts and medical info in one place — useful to keep on hand for any appointment or crisis situation.',
+    whenToUse: 'Fill out once, print it small enough to fold into a wallet, and update it whenever your medications or contacts change.',
+    sections: [
+      {
+        heading: 'My quick-reference info',
+        type: 'fields',
+        fields: [
+          { label: 'Name', type: 'text' },
+          { label: 'Emergency contact (name & phone)', type: 'text' },
+          { label: 'Psychiatric provider (name & phone)', type: 'text' },
+          { label: 'Current medications & doses', type: 'textarea' },
+          { label: 'Diagnoses', type: 'textarea' },
+          { label: 'Allergies', type: 'text' },
+        ],
+      },
+      {
+        heading: 'My core rights',
+        type: 'checklist',
+        items: [
+          'I have the right to informed consent — risks, benefits, and alternatives explained before I agree to treatment.',
+          'I have the right to refuse treatment, except in narrow emergency or court-ordered situations.',
+          'I have the right to the least restrictive appropriate setting, not automatically the most intensive one.',
+          'I have the right to a copy of my medical records, generally within 30 days of a written request.',
+          'I have the right to confidentiality, with limited exceptions (imminent danger, abuse reporting, court order).',
+          'I have the right to a free interpreter if I need one, at federally funded providers.',
+          'My insurance must cover mental health care no more restrictively than physical health care (parity law).',
+          'If held involuntarily, I have the right to know why, and the right to a hearing and legal representation.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'safety-plan',
+    title: 'Safety & Crisis Plan',
+    purpose:
+      'A structured plan — based on the widely used Stanley-Brown safety planning model — to fill out while stable, so you have a clear, specific plan ready if a crisis starts to build.',
+    whenToUse: 'Best completed with a therapist, psychiatrist, or crisis counselor, though it\'s fine to start on your own. Keep a copy somewhere accessible and share one with a trusted contact.',
+    sections: [
+      {
+        heading: '1. My warning signs',
+        type: 'fields',
+        fields: [
+          { label: 'Thoughts, moods, situations, or behaviors that tell me a crisis may be building', type: 'textarea' },
+        ],
+      },
+      {
+        heading: '2. Coping strategies I can use alone',
+        type: 'fields',
+        fields: [
+          { label: 'Things that help without needing to contact anyone else', type: 'textarea' },
+        ],
+      },
+      {
+        heading: '3. People and places that provide distraction',
+        type: 'fields',
+        fields: [
+          { label: 'People I can be around (without necessarily discussing what\'s wrong)', type: 'textarea' },
+          { label: 'Places that help me feel steadier', type: 'textarea' },
+        ],
+      },
+      {
+        heading: '4. People I can ask for help',
+        type: 'fields',
+        fields: [
+          { label: 'Name & phone #1', type: 'text' },
+          { label: 'Name & phone #2', type: 'text' },
+          { label: 'Name & phone #3', type: 'text' },
+        ],
+      },
+      {
+        heading: '5. Professionals and agencies I can contact',
+        type: 'fields',
+        fields: [
+          { label: 'My provider\'s name & phone', type: 'text' },
+          { label: 'Crisis line: call or text 988 (Suicide & Crisis Lifeline)', type: 'text' },
+          { label: 'Nearest ER / urgent care', type: 'text' },
+        ],
+      },
+      {
+        heading: '6. Making my environment safer',
+        type: 'fields',
+        fields: [
+          { label: 'Steps to limit access to means during a crisis (e.g., safe storage of medications, firearms) — who can help with this', type: 'textarea' },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'psychiatric-advance-directive',
+    title: 'Psychiatric Advance Directive (Starting Template)',
+    purpose:
+      'A working draft for documenting your treatment preferences and a designated decision-maker in case of a future mental health crisis where you can\'t communicate your wishes. Psychiatric advance directive law and required forms vary by state — use this to organize your thinking before completing your state\'s official form.',
+    whenToUse: 'Complete while stable, ideally with input from your provider. Before this is legally binding, check your state\'s specific requirements at the National Resource Center on Psychiatric Advance Directives (nrc-pad.org).',
+    sections: [
+      {
+        heading: 'My care preferences',
+        type: 'fields',
+        fields: [
+          { label: 'My current diagnoses and providers', type: 'textarea' },
+          { label: 'Medications that have worked well for me in the past', type: 'textarea' },
+          { label: 'Medications or treatments I want to avoid, and why', type: 'textarea' },
+          { label: 'Hospitals or facilities I prefer, or want to avoid', type: 'textarea' },
+        ],
+      },
+      {
+        heading: 'My decision-maker',
+        type: 'fields',
+        fields: [
+          { label: 'Primary healthcare proxy (name, relationship, phone)', type: 'text' },
+          { label: 'Alternate proxy (name, relationship, phone)', type: 'text' },
+        ],
+      },
+      {
+        heading: 'Other instructions',
+        type: 'fields',
+        fields: [
+          { label: 'Who should be contacted or informed (work, family, other)', type: 'textarea' },
+          { label: 'Care of dependents, pets, or responsibilities during a crisis', type: 'textarea' },
+        ],
+      },
+      {
+        heading: 'Before this is legally binding',
+        type: 'checklist',
+        items: [
+          'Check your state\'s specific PAD law and official form at nrc-pad.org',
+          'Complete any required witnesses or notarization for your state',
+          'Give signed copies to your proxy, your provider, and keep one accessible yourself',
+          'Revisit and update it periodically, especially after any major treatment change',
+        ],
+      },
+    ],
+  },
+  {
     id: 'diagnosis-process-checklist',
     title: 'Diagnostic Process Checklist',
     purpose:
@@ -450,6 +586,62 @@ Sincerely,
           'Check your plan\'s appeal deadline (often 60–180 days from denial)',
           'Ask about expedited/urgent appeals if delay could harm your health',
           'If internal appeal fails, ask about your right to an external review',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'iep-504-request-letter',
+    title: 'IEP / 504 Evaluation Request Letter',
+    purpose:
+      'A template letter for formally requesting that a school evaluate a child for an IEP or 504 plan — the required first step to get either one in place, and a written request generally starts a legal timeline the school must respond to.',
+    whenToUse: 'Use when a mental health condition (anxiety, depression, ADHD, or similar) is affecting a child\'s school performance and you want to formally request evaluation and accommodations.',
+    sections: [
+      {
+        heading: 'Letter template',
+        type: 'letter',
+        text: `[Your name]
+[Your address]
+[Date]
+
+[Principal / Special Education Coordinator name]
+[School name and address]
+
+Re: Written request for special education evaluation
+Student name: [Child's full name]
+Date of birth: [DOB]
+Grade / Teacher: [Grade, teacher name]
+
+To whom it may concern,
+
+I am writing to formally request that [Child's name] be evaluated for eligibility for special education
+services (an IEP) and/or a Section 504 Plan, due to [brief description — e.g., "an anxiety diagnosis that is
+significantly affecting attendance and classroom participation"].
+
+Specific concerns I've observed include: [describe specific examples — missed school, drop in grades,
+difficulty completing work, behavioral changes, etc.].
+
+[Child's name] [is / is not] currently receiving outside treatment for this from [provider name], who can
+provide supporting documentation if helpful.
+
+I understand this written request begins the formal evaluation timeline under [IDEA / Section 504], and I
+would appreciate confirmation of receipt along with next steps and expected timing.
+
+Please contact me at the information below to discuss further.
+
+Sincerely,
+[Your name]
+[Phone number]
+[Email address]`,
+      },
+      {
+        heading: 'Before you send it',
+        type: 'checklist',
+        items: [
+          'Keep a copy of the letter and note the date you sent it — this generally starts a legal response timeline',
+          'Ask your child\'s outside provider (therapist, psychiatrist, pediatrician) for a brief supporting letter if relevant',
+          'Send it in writing (email counts) rather than only asking verbally, so there\'s a clear record',
+          'If you don\'t hear back within your state\'s required timeline, follow up in writing and ask about next steps',
         ],
       },
     ],

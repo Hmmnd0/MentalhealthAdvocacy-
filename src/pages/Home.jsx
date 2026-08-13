@@ -14,10 +14,28 @@ const features = [
     description: 'Step-by-step walkthrough of how a mental health diagnosis gets made, with questions to ask at each stage.',
   },
   {
+    to: '/care-options',
+    icon: '🧩',
+    title: 'Understanding Your Care Options',
+    description: 'Provider types, therapy approaches, and levels of care explained in plain language, plus questions to ask when choosing someone new.',
+  },
+  {
     to: '/provider-bias',
     icon: '⚖️',
     title: 'Recognizing Provider Bias',
     description: 'Patterns that suggest bias around race, gender, weight, age, or identity in your care, and how to document and respond to them.',
+  },
+  {
+    to: '/patient-rights',
+    icon: '🛡️',
+    title: 'Patient Rights & Legal Protections',
+    description: 'Informed consent, the right to refuse treatment, mental health parity, and other protections most patients never learn about in advance.',
+  },
+  {
+    to: '/youth-school',
+    icon: '🎒',
+    title: 'Youth & School Mental Health',
+    description: 'IEPs vs. 504 plans, FERPA vs. HIPAA, and how to advocate for a child across both the school and healthcare systems.',
   },
   {
     to: '/scripts',
@@ -61,7 +79,7 @@ function Home() {
       </section>
 
       <h2 className="section-title">What's here</h2>
-      <p className="section-subtitle">Four tools built for the moments patients say are hardest to navigate.</p>
+      <p className="section-subtitle">Tools built for the moments patients say are hardest to navigate.</p>
       <div className="card-grid">
         {features.map((f) => (
           <Link key={f.to} to={f.to} className="card">
