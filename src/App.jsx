@@ -12,6 +12,7 @@ import PatientRights from './pages/PatientRights'
 import CareOptions from './pages/CareOptions'
 import YouthSchool from './pages/YouthSchool'
 import ForFamily from './pages/ForFamily'
+import PostpartumPsychosis from './pages/PostpartumPsychosis'
 import About from './pages/About'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="care-options" element={<CareOptions />} />
         <Route path="youth-school" element={<YouthSchool />} />
         <Route path="for-family" element={<ForFamily />} />
+        <Route path="postpartum-psychosis" element={<PostpartumPsychosis />} />
         <Route path="about" element={<About />} />
       </Route>
     </Routes>

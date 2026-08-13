@@ -9,6 +9,7 @@ const navItems = [
   { to: '/patient-rights', label: 'Patient Rights' },
   { to: '/youth-school', label: 'Youth & School' },
   { to: '/for-family', label: 'For Family & Friends' },
+  { to: '/postpartum-psychosis', label: 'Postpartum Psychosis' },
   { to: '/scripts', label: 'Scripts & Forms' },
   { to: '/helplines', label: 'Helplines' },
   { to: '/medications', label: 'Medication Info' },

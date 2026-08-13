@@ -44,6 +44,12 @@ const features = [
     description: 'Signs to watch for in a loved one, crisis red flags, how to start the conversation, and support for you as a caregiver.',
   },
   {
+    to: '/postpartum-psychosis',
+    icon: '🤱',
+    title: 'Postpartum Psychosis',
+    description: 'Warning signs, how it differs from baby blues and PPD, and an action plan to prepare before delivery — this is a fast-moving emergency.',
+  },
+  {
     to: '/scripts',
     icon: '📝',
     title: 'Scripts & Printable Forms',

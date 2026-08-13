@@ -3,6 +3,58 @@
 
 const scripts = [
   {
+    id: 'postpartum-psychosis-action-plan',
+    title: 'Postpartum Psychosis Action Plan',
+    purpose:
+      'A plan to fill out before delivery, so if postpartum psychosis develops — which can happen suddenly, within days of birth — the people around you already know the warning signs and exactly who to call. Postpartum psychosis is rare but is a medical emergency; having a plan ready in advance matters because there often isn\'t time to figure one out after symptoms start.',
+    whenToUse: 'Best completed during pregnancy, ideally with your partner or a support person, and shared with everyone who will be around in the first few weeks postpartum.',
+    sections: [
+      {
+        heading: 'Key contacts',
+        type: 'fields',
+        fields: [
+          { label: 'Her name', type: 'text' },
+          { label: 'OB / midwife name & phone', type: 'text' },
+          { label: 'Psychiatric provider (if any), name & phone', type: 'text' },
+          { label: 'Personal or family history of bipolar disorder or postpartum psychosis?', type: 'textarea' },
+          { label: 'Primary support person & phone', type: 'text' },
+          { label: 'Backup support person & phone', type: 'text' },
+        ],
+      },
+      {
+        heading: 'Warning signs to watch for',
+        type: 'checklist',
+        items: [
+          'Hallucinations — hearing or seeing things that aren\'t there',
+          'Delusions — strange, fixed beliefs that don\'t match reality',
+          'Severe confusion or disorientation',
+          'Rapid, extreme mood swings — euphoria or agitation alternating with despair',
+          'Paranoia or sudden, extreme suspiciousness',
+          'Not sleeping for several nights, or a dramatically reduced need for sleep',
+          'Behavior that feels bizarre, erratic, or completely out of character',
+        ],
+      },
+      {
+        heading: 'If any of these appear — act immediately',
+        type: 'checklist',
+        items: [
+          'Call 911 or go to the nearest ER right away',
+          'Or call/text 988 (Suicide & Crisis Lifeline)',
+          'Do not leave her alone, and don\'t leave her alone with the baby if there\'s any safety concern',
+          'Call her OB/midwife or psychiatric provider in addition to, not instead of, emergency care',
+          'Afterward, Postpartum Support International (1-800-944-4773) can help with follow-up and finding specialized providers',
+        ],
+      },
+      {
+        heading: 'Protecting sleep (a key risk factor)',
+        type: 'fields',
+        fields: [
+          { label: 'Who will handle nighttime baby care on which nights, so she can get protected stretches of sleep', type: 'textarea' },
+        ],
+      },
+    ],
+  },
+  {
     id: 'symptom-tracker',
     title: 'Symptom & Mood Tracker',
     purpose:
