@@ -30,25 +30,28 @@ function ChecklistSection({ items }) {
 
 function TableSection({ columns, rows }) {
   return (
-    <div style={{ overflowX: 'auto' }}>
-      <table className="print-table">
-        <thead>
-          <tr>
-            {columns.map((c) => (
-              <th key={c}>{c}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {Array.from({ length: rows }).map((_, i) => (
-            <tr key={i}>
+    <div>
+      <p className="table-scroll-hint">Swipe sideways to see all columns →</p>
+      <div className="table-scroll-wrap">
+        <table className="print-table">
+          <thead>
+            <tr>
               {columns.map((c) => (
-                <td key={c}></td>
+                <th key={c}>{c}</th>
               ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {Array.from({ length: rows }).map((_, i) => (
+              <tr key={i}>
+                {columns.map((c) => (
+                  <td key={c}></td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }

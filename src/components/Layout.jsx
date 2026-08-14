@@ -1,4 +1,5 @@
-import { NavLink, Outlet } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { NavLink, Outlet, useLocation } from 'react-router-dom'
 
 const navItems = [
   { to: '/', label: 'Home', end: true },
@@ -17,6 +18,13 @@ const navItems = [
 ]
 
 function Layout() {
+  const [menuOpen, setMenuOpen] = useState(false)
+  const location = useLocation()
+
+  useEffect(() => {
+    setMenuOpen(false)
+  }, [location.pathname])
+
   return (
     <>
       <div className="crisis-strip">
@@ -31,7 +39,17 @@ function Layout() {
             </span>
             Patient Voice
           </NavLink>
-          <nav className="main-nav" aria-label="Main">
+          <button
+            type="button"
+            className="menu-toggle"
+            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={menuOpen}
+            aria-controls="main-nav"
+            onClick={() => setMenuOpen((open) => !open)}
+          >
+            {menuOpen ? '✕' : '☰'}
+          </button>
+          <nav id="main-nav" className={menuOpen ? 'main-nav open' : 'main-nav'} aria-label="Main">
             {navItems.map((item) => (
               <NavLink
                 key={item.to}
