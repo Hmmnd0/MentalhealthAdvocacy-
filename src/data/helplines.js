@@ -19,7 +19,7 @@ export const nationalHelplines = [
   },
   {
     name: 'NAMI HelpLine',
-    contact: '1-800-950-6264, or text "HelpLine" to 62640',
+    contact: '1-800-950-6264, or text "NAMI" to 62640',
     description: 'Peer-support helpline from the National Alliance on Mental Illness — not a crisis line, but a place for information, resources, and support Mon–Fri.',
     url: 'https://www.nami.org/help',
   },
@@ -95,7 +95,7 @@ export const findLocalResources = [
   },
   {
     name: 'Open Path Collective',
-    description: 'Directory of therapists offering reduced-fee sessions ($30–$80) for people without insurance coverage for therapy.',
+    description: 'Directory of therapists offering reduced-fee sliding-scale sessions for people without insurance coverage for therapy. Exact rates and eligibility are set by Open Path and may change — check their site for current pricing.',
     url: 'https://openpathcollective.org',
   },
 ]

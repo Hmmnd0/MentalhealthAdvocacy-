@@ -16,7 +16,8 @@ function PatientRights() {
         <strong>Not legal advice.</strong> Rights around involuntary holds, minors' consent, and accommodations
         vary significantly by state and situation. This page is a general starting point — for anything
         high-stakes, confirm specifics with a patient advocate, legal aid organization, or attorney in your
-        state.
+        state. Federal rules cited here (HIPAA, mental health parity) are sourced on the{' '}
+        <Link to="/sources">Sources &amp; Methodology</Link> page.
       </div>
 
       <p style={{ margin: '8px 0 32px' }}>

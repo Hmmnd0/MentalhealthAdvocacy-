@@ -23,7 +23,7 @@ export const comparisonConditions = [
   {
     title: 'Postpartum psychosis',
     howCommon: 'Rare — roughly 1 to 2 per 1,000 births',
-    onset: 'Sudden onset, almost always within the first 2 weeks after birth, and symptoms can escalate within hours to days',
+    onset: 'Sudden onset, most often within the first 2 weeks after birth (risk continues for several months), and symptoms can escalate within hours to days',
     whatItLooksLike: 'Hallucinations, delusions, severe confusion, and rapid mood swings. A psychiatric emergency requiring immediate treatment, almost always inpatient care.',
     emergency: true,
   },
@@ -41,7 +41,7 @@ export const warningSigns = [
 ]
 
 export const riskFactors = [
-  'A personal or family history of bipolar disorder or postpartum psychosis — the single biggest risk factor, with research suggesting roughly a 1-in-2 recurrence risk in a future pregnancy for someone who has had it before',
+  'A personal or family history of bipolar disorder or postpartum psychosis — the single biggest risk factor. Research puts recurrence in a future pregnancy at roughly 1 in 3 for those with a prior episode of postpartum psychosis, and it runs higher still — up to around 1 in 2 — for those with bipolar disorder who also have a family history of postpartum psychosis. Ask your care team for guidance specific to your history.',
   'A history of schizoaffective disorder',
   'Significant sleep deprivation',
   'First pregnancy',

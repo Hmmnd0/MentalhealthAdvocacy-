@@ -77,7 +77,8 @@ function MedicationDatabase() {
         general level — not every medication, dose, or individual interaction. It doesn't replace prescribing
         information, your pharmacist, or your prescriber. For checking a specific interaction or your own
         medication's clearance time, see the tools and questions on the{' '}
-        <Link to="/medications">Medication Info</Link> page.
+        <Link to="/medications">Medication Info</Link> page. The black-box/boxed warnings referenced below are
+        sourced on the <Link to="/sources">Sources &amp; Methodology</Link> page.
       </div>
 
       <input

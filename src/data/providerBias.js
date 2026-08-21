@@ -99,8 +99,8 @@ export const affirmingDirectories = [
     url: 'https://asdah.org',
   },
   {
-    name: 'GLMA Provider Directory',
-    description: 'Directory of LGBTQ+-affirming healthcare providers.',
-    url: 'https://glma.org/find-a-provider',
+    name: 'LGBTQ+ Healthcare Directory (GLMA)',
+    description: 'Free, searchable directory of LGBTQ+-affirming healthcare providers across the U.S. and Canada, run by GLMA in partnership with the Tegan and Sara Foundation.',
+    url: 'https://lgbtqhealthcaredirectory.org',
   },
 ]

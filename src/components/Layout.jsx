@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { NavLink, Outlet, useLocation } from 'react-router-dom'
+import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 
 const navItems = [
   { to: '/', label: 'Home', end: true },
@@ -74,7 +74,9 @@ function Layout() {
           <div>
             <strong>Patient Voice</strong> — free tools to help you advocate for yourself at the doctor's office.
           </div>
-          <div>Educational resource only. Not medical, legal, or insurance advice.</div>
+          <div>
+            Educational resource only. Not medical, legal, or insurance advice. <Link to="/sources">Sources &amp; methodology →</Link>
+          </div>
         </div>
       </footer>
     </>

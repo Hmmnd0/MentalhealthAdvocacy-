@@ -15,6 +15,7 @@ import YouthSchool from './pages/YouthSchool'
 import ForFamily from './pages/ForFamily'
 import PostpartumPsychosis from './pages/PostpartumPsychosis'
 import About from './pages/About'
+import Sources from './pages/Sources'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="for-family" element={<ForFamily />} />
         <Route path="postpartum-psychosis" element={<PostpartumPsychosis />} />
         <Route path="about" element={<About />} />
+        <Route path="sources" element={<Sources />} />
       </Route>
     </Routes>
   )

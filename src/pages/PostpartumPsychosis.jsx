@@ -28,7 +28,8 @@ function PostpartumPsychosis() {
 
       <div className="disclaimer">
         <strong>Not a diagnostic tool.</strong> This page is meant to help you recognize when something needs
-        urgent professional attention — only a clinician can diagnose postpartum psychosis.
+        urgent professional attention — only a clinician can diagnose postpartum psychosis. The statistics on
+        this page are cited on the <Link to="/sources">Sources &amp; Methodology</Link> page.
       </div>
 
       <h2 className="section-title">How it's different from baby blues, PPD, and PPA</h2>
