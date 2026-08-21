@@ -6,6 +6,7 @@ import Scripts from './pages/Scripts'
 import ScriptDetail from './pages/ScriptDetail'
 import Helplines from './pages/Helplines'
 import Medications from './pages/Medications'
+import MedicationDatabase from './pages/MedicationDatabase'
 import DiagnosisProcess from './pages/DiagnosisProcess'
 import ProviderBias from './pages/ProviderBias'
 import PatientRights from './pages/PatientRights'
@@ -25,6 +26,7 @@ function App() {
         <Route path="scripts/:id" element={<ScriptDetail />} />
         <Route path="helplines" element={<Helplines />} />
         <Route path="medications" element={<Medications />} />
+        <Route path="medication-database" element={<MedicationDatabase />} />
         <Route path="diagnosis-process" element={<DiagnosisProcess />} />
         <Route path="provider-bias" element={<ProviderBias />} />
         <Route path="patient-rights" element={<PatientRights />} />

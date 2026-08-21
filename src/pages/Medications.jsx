@@ -114,6 +114,11 @@ function Medications() {
         ))}
       </ul>
 
+      <p style={{ margin: '28px 0 0' }}>
+        Want to look up a medication class instead — like what an SSRI or a benzodiazepine generally is?{' '}
+        <Link to="/medication-database">Browse the Medication Database →</Link>
+      </p>
+
       <h2 className="section-title">Look it up yourself</h2>
       <p className="section-subtitle">Authoritative, free tools for checking side effects and interactions.</p>
       <div className="card-grid">

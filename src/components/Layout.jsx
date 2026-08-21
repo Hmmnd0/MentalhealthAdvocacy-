@@ -14,6 +14,7 @@ const navItems = [
   { to: '/scripts', label: 'Scripts & Forms' },
   { to: '/helplines', label: 'Helplines' },
   { to: '/medications', label: 'Medication Info' },
+  { to: '/medication-database', label: 'Medication Database' },
   { to: '/about', label: 'About' },
 ]
 

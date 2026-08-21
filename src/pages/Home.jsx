@@ -67,6 +67,12 @@ const features = [
     title: 'Medication Info',
     description: 'How to understand side effects and interactions, and where to look up authoritative drug information.',
   },
+  {
+    to: '/medication-database',
+    icon: '🗂️',
+    title: 'Medication Database',
+    description: 'Searchable reference by medication class — SSRIs, benzodiazepines, mood stabilizers, and more — with common examples, timelines, and class-wide warnings.',
+  },
 ]
 
 function Home() {
